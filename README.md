@@ -1,4 +1,4 @@
-# Pokèsort - Which Pokémon is most round?
+# Roundest - Which Pokémon is most round?
 
 Answering all of life's toughest questions
 
@@ -11,7 +11,8 @@ npm run dev
 ```
 
 ## TODO
-- [ ] Use next/image to handle image caching and better rendering
-  - [ ] Maybe move images to bulbapedia
-- [ ] Persist data fetched from PokemonAPI
-- [ ] Create the results page with counting/sorting
+
+- [x] Use next/image to handle image caching and better rendering
+- [x] Persist data fetched from PokemonAPI
+- [x] Create the results page with counting/sorting
+- [ ] Better loading state between votes
